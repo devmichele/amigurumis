@@ -28,14 +28,16 @@ main {
     display: flex;
     gap: 30px;
     padding: 30px 0;
+    
 }
 
 .cartao-pokedev {
     display: none;
     max-width: 360px;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
 
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
 }
 
 .cartao-pokedev.aberto {
@@ -72,7 +74,7 @@ main {
 }
 
 .cartao-pokedev .cartao-informacoes {
-    background-color: #ffffff;
+    background-color: #ffffff79;
     display: flex;
     justify-content: space-between;
     padding: 80px 30px 50px;
@@ -95,27 +97,27 @@ main {
 }
 
 .tipo-eletrico {
-    background-color: #71909d;
+    background-color: #96c1d391;
 }
 
 .tipo-fogo {
-    background-color: #a3c4c9;
+    background-color: #a4e0e991;
 }
 
 .tipo-agua {
-    background-color: #71909d;
+    background-color: #96c1d391;
 }
 
 .tipo-grama {
-    background-color: #a3c4c9;
+    background-color: #a4e0e991;
 }
 
 .tipo-trevas {
-    background-color: #71909d;
+    background-color: #96c1d391;
 }
 
 .tipo-fada {
-    background-color: #a3c4c9;
+    background-color: #a4e0e991;
 }
 
 .listagem {
@@ -127,7 +129,7 @@ main {
 }
 
 .listagem .pokedev {
-    background-color: #7d9a9f;
+    background-color: #b2d9e096;
     color: #ffffff;
 
     display: flex;
@@ -152,9 +154,26 @@ main {
 }
 
 .listagem .pokedev.ativo {
-    background-color: #a3c4c9;
+    background-color: #a3c4c9f5;
 }
 
+.whatsapp-container {
+    text-align: right; /* Alinha o conteúdo à direita */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Espaço abaixo do botão */
+}
 
+.whatsapp-container a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #122524; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    display: flex; /* Para alinhar ícone e texto */
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Alinha verticalmente ícone e texto */
+}
 
-
+.whatsapp-icon {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
